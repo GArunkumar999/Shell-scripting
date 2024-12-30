@@ -10,4 +10,4 @@ pwd
 
 #list all files and dirctories
 
-ll
+ls -l
