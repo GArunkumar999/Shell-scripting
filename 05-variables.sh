@@ -1,6 +1,7 @@
 #!/bin/bash
 
-read -p "Enter name: " -s name
+read "Enter name: " -s name
+echo
 read -p "Enter age: " -s age
 
 echo "Your name is $name"
