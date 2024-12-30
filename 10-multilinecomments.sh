@@ -8,11 +8,11 @@ ls
 
 last
 
-<< comment
+<<arun
 which cat
 
 touch file
 
 mkdir arun
-comment
+arun
 
