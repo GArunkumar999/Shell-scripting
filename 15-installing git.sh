@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #checking given user is root user or not
-id=$((dnf list installed))
+id=$(dnf list installed)
 user=$(id -u)
 
 if [ $user -ne 0 ]
