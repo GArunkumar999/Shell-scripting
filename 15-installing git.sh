@@ -8,9 +8,6 @@ if [ $user -ne 0 ]
 then 
      echo "You have to be root user"
      exit 1
-    if [ $id -eq python ]
-      echo "python installed already"
-else 
-    dnf install python -y
-     echo "Installing python successful"
 fi
+    dnf install python -y
+    echo "Installing python successful"
