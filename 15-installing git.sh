@@ -10,13 +10,13 @@ then
      exit 1
 fi
 
-dnf list installed cronie
+dnf list installed git
 
 if [ $? -ne 0 ]
 then 
     echo "Git not installed"
 else 
-    echo "cronie installed already"
+    echo "git installed already"
     exit 1
 fi
     dnf install git -y
