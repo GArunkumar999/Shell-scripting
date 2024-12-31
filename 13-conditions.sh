@@ -1,8 +1,9 @@
 #!/bin/bash
 
-NUMBER=70
+echo "Enter a number: "
+read NUMBER
 
-if [ $NUMBER -gt 70]
+if [ $NUMBER -ge 70]
 then
      echo "entered value is greather than 70"
 else
