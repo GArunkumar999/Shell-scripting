@@ -17,6 +17,7 @@ then
     echo "Git not installed"
 else 
     echo "Git installed already"
+    exit 1
 fi
     dnf install git -y
     echo "Installing git successful"
