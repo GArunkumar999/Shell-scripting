@@ -9,6 +9,6 @@ then
      echo "You have to be root user"
      exit 1
 else 
-    dnf install git -y
+    dnf install python -y
      echo "Installing git successful"
 fi
