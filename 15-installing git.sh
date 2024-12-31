@@ -7,6 +7,7 @@ user=$(id -u)
 if [ $user -ne 0 ]
 then 
      echo "You have to be root user"
+     exit 1
      dnf install git -y
 else 
      echo "Installing git successful"
