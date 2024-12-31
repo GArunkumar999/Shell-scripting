@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#checking given user is root user or not
+#installing git
 
 user=$(id -u)
 
@@ -18,5 +18,5 @@ then
 else 
     echo "Git installed already"
 fi
-    dnf install python -y
-    echo "Installing python successful"
+    dnf install git -y
+    echo "Installing git successful"
