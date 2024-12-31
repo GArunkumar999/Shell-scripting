@@ -7,7 +7,7 @@ read -p "Enter a number: " NUMBER
 if [ $NUMBER -gt 0 ]
 then 
      echo "Positive number"
-elif [ $NUMBER -lt 0]
+elif [ $NUMBER -lt 0 ]
 then 
       echo "Negative number"
 else
