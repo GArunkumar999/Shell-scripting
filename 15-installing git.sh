@@ -9,4 +9,4 @@ then
      echo "You have to be root user"
 else 
      echo "Installing git successful"
-     
+fi
