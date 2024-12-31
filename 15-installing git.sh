@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #checking given user is root user or not
-$(dnf list installed git )
+
 user=$(id -u)
 
 if [ $user -ne 0 ]
